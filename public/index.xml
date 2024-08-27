@@ -2,20 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>于晓鱼的Blog</title>
-        <link>http://localhost:1313/</link>
+        <link>https://yu.nm.cn/</link>
         <description>Recent content on 于晓鱼的Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>YuXiaoyu</copyright>
-        <lastBuildDate>Tue, 27 Aug 2024 14:57:50 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>使用CloudFlare Pages &#43; Hugo部署博客</title>
-        <link>http://localhost:1313/p/%E4%BD%BF%E7%94%A8cloudflare-pages--hugo%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2/</link>
-        <pubDate>Tue, 27 Aug 2024 14:57:50 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/%E4%BD%BF%E7%94%A8cloudflare-pages--hugo%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2/</guid>
-        <description>&lt;img src="https://pic.yu.nm.cn/covers/植物の勉強_90010553.jpg" alt="Featured image of post 使用CloudFlare Pages &#43; Hugo部署博客" /&gt;&lt;h1 id=&#34;0x0-准备工作&#34;&gt;0x0 准备工作
-&lt;/h1&gt;</description>
-        </item>
-        
+        <lastBuildDate>Tue, 27 Aug 2024 14:57:50 +0800</lastBuildDate><atom:link href="https://yu.nm.cn/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

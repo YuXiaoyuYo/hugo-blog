@@ -1,3 +1,0 @@
-User-Agent: *
-Allow: /
-Sitemap: https://yu.nm.cn/sitemap.xml
