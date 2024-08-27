@@ -30,7 +30,7 @@ services:
         id:
 
 permalinks:
-    post: /p/:slug/
+    post: /article/:slug/
     page: /:slug/
 
 params:
