@@ -30,12 +30,12 @@ services:
         id:
 
 permalinks:
-    post: /article/:slug/
+    article: /article/:slug/
     page: /:slug/
 
 params:
     mainSections:
-        - post
+        - article
     featuredImageField: image
     rssFullContent: true
     favicon: /favicon.ico # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
