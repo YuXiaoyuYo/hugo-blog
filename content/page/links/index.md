@@ -1,7 +1,7 @@
 ---
 title: 友链
 slug: "links"
-draft: true
+hidden: true
 links:
   - title: GitHub
     description: GitHub is the world's largest software development platform.
