@@ -65,8 +65,8 @@ params:
         subtitle: Bonjour!
         avatar:
             enabled: true
-            local: true
-            src: img/avatar.png
+            local: false
+            src: https://pic.yu.nm.cn/resources/avatar.png
 
     article:
         math: false
