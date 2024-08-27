@@ -20,18 +20,6 @@ languages:
         weight: 1
         params:
             description: 爱是人类最小剂量的共产主义
-    zh-tw:
-        languageName: 繁體中文
-        title: 于曉魚的Blog
-        weight: 2
-        params:
-            description: 愛是人類最小劑量的共產主義
-    en:
-        languageName: English
-        title: YuXiaoyu's Blog
-        weight: 3
-        params:
-            description: Love is the minimum dose of communism for humanity
 
 services:
     # Change it to your Disqus shortname before using

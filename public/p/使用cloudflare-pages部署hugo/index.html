@@ -2,17 +2,19 @@
 <html lang="zh-cn" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
-<title>Test</title>
+<title>使用CloudFlare Pages部署Hugo</title>
 
-<link rel='canonical' href='http://localhost:1313/p/test/'>
+<link rel='canonical' href='http://localhost:1313/p/%E4%BD%BF%E7%94%A8cloudflare-pages%E9%83%A8%E7%BD%B2hugo/'>
 
-<link rel="stylesheet" href="/scss/style.min.e8c7fca7d1c9294aa7a4f3426c225ee26540f7d94e39be0b5a4a5c8a49ca5a25.css"><meta property='og:title' content="Test">
+<link rel="stylesheet" href="/scss/style.min.e8c7fca7d1c9294aa7a4f3426c225ee26540f7d94e39be0b5a4a5c8a49ca5a25.css"><meta property='og:title' content="使用CloudFlare Pages部署Hugo">
 <meta property='og:description' content="">
-<meta property='og:url' content='http://localhost:1313/p/test/'>
-<meta property='og:site_name' content='演示站点'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-08-24T21:10:55&#43;08:00'/><meta property='article:modified_time' content='2024-08-24T21:10:55&#43;08:00'/>
-<meta name="twitter:title" content="Test">
+<meta property='og:url' content='http://localhost:1313/p/%E4%BD%BF%E7%94%A8cloudflare-pages%E9%83%A8%E7%BD%B2hugo/'>
+<meta property='og:site_name' content='于晓鱼的Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-08-27T14:57:50&#43;08:00'/><meta property='article:modified_time' content='2024-08-27T14:57:50&#43;08:00'/>
+<meta name="twitter:title" content="使用CloudFlare Pages部署Hugo">
 <meta name="twitter:description" content="">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
   
 
 
@@ -55,13 +57,7 @@
             <figure class="site-avatar">
                 <a href="/">
                 
-                    
-                    
-                    
-                        
-                        <img src="/img/avatar_hu13739649187745961479.png" width="300"
-                            height="300" class="site-logo" loading="lazy" alt="Avatar">
-                    
+                    <img src="https://pic.yu.nm.cn/resources/avatar.png" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
                 
                 </a>
                 
@@ -72,16 +68,16 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">演示站点</a></h1>
-            <h2 class="site-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <h1 class="site-name"><a href="/">于晓鱼的Blog</a></h1>
+            <h2 class="site-description">Bonjour!</h2>
         </div>
     </header><ol class="menu-social">
             
                 <li>
                     <a 
-                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        href='https://github.com/YuXiaoyuYo/'
                         target="_blank"
-                        title="GitHub"
+                        title="YuXiaoyuYo"
                         rel="me"
                     >
                         
@@ -99,20 +95,42 @@
             
                 <li>
                     <a 
-                        href='https://twitter.com'
+                        href='https://steamcommunity.com/id/YuXiaoyuYo/'
                         target="_blank"
-                        title="Twitter"
+                        title="于晓鱼"
                         rel="me"
                     >
                         
                         
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
-</svg>
-
-
-
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-steam"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 3l-.176 0a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z" /><circle cx="16.5" cy="9.5" r="1" fill="currentColor" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://x.com/YuXiaoyuHo'
+                        target="_blank"
+                        title="于晓鱼"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4l11.733 16h4.267l-11.733 -16z" /><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/353077925'
+                        target="_blank"
+                        title="于晓鱼哟"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" /><path d="M8 3l2 3" /><path d="M16 3l-2 3" /><path d="M9 13v-2" /><path d="M15 11v2" /></svg>
                         
                     </a>
                 </li>
@@ -122,31 +140,6 @@
         
         <li class="menu-bottom-section">
             <ol class="menu">
-                    
-                        <li id="i18n-switch">  
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 5h7" />
-  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
-  <path d="M12 20l4 -9l4 9" />
-  <path d="M19.1 18h-6.2" />
-</svg>
-
-
-
-                            <select name="language" title="language" onchange="window.location.href = this.selectedOptions[0].value">
-                                
-                                    <option value="http://localhost:1313/en/" >English</option>
-                                
-                                    <option value="http://localhost:1313/" selected>简体中文</option>
-                                
-                                    <option value="http://localhost:1313/zh-tw/" >繁體中文</option>
-                                
-                            </select>
-                        </li>
-                    
-                
 
                 
                     <li id="dark-mode-toggle">
@@ -185,7 +178,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/test/">Test</a>
+            <a href="/p/%E4%BD%BF%E7%94%A8cloudflare-pages%E9%83%A8%E7%BD%B2hugo/">使用CloudFlare Pages部署Hugo</a>
         </h2>
     
         
@@ -207,7 +200,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Aug 24, 2024</time>
+                <time class="article-time--published">Aug 27, 2024</time>
             </div>
         
 
@@ -275,9 +268,7 @@
     <section class="copyright">
         &copy; 
         
-            2020 - 
-        
-        2024 Copyright © 2022 YuXiaoyu
+        2024 YuXiaoyu
     </section>
     
     <section class="powerby">
