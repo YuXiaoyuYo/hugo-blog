@@ -2,10 +2,6 @@
 title: 关于
 slug: "about"
 description: Hugo, the world's fastest framework for building websites
-aliases:
-  - about-us
-  - about-hugo
-  - contact
 menu:
     main: 
         weight: -50
