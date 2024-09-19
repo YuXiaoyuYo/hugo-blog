@@ -55,7 +55,7 @@ params:
         avatar:
             enabled: true
             local: false
-            src: https://pic.yu.nm.cn/resources/avatar.png
+            src: https://i.070715.xyz/avatar.webp
 
     article:
         math: false
