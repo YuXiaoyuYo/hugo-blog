@@ -4,7 +4,6 @@ theme: hugo-theme-stack
 paginate: 3
 title: 于晓鱼的Blog
 copyright: YuXiaoyu
-enableRobotsTXT: true
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -39,7 +38,7 @@ params:
         - article
     featuredImageField: image
     rssFullContent: true
-    favicon: /favicon.ico # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: https://i.070715.xyz/favicon.webp # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
         since: 2024
