@@ -8,14 +8,14 @@ enableGitInfo: true
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: zh-Hans
+DefaultContentLanguage: zh-hans
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: true
 
 languages:
-    zh-Hans:
+    zh-hans:
         languageName: 简体中文
         title: 于晓鱼的Blog
         weight: 1
