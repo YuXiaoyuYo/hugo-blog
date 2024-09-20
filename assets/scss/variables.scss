@@ -41,9 +41,9 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 */
 :root {
     --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Ubuntu", "Helvetica Neue", "Helvetica", "Arial";
-    --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans CN";
+    --zh-font-family: "PingFang SC", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans CN";
 
-    --base-font-family: var(--sys-font-family), var(--zh-font-family), sans-serif;
+    --base-font-family: "Hiragino Sans GB", var(--sys-font-family), var(--zh-font-family), sans-serif;
     --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
 }
 
