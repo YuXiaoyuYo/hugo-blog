@@ -134,7 +134,7 @@ params:
             categoryID: DIC_kwDOMoWkr84Ci0Ip
             mapping: og:title
             lightTheme: light
-            darkTheme: dark
+            darkTheme: dark_dimmed
             reactionsEnabled: 1
             emitMetadata: 0
             lang: zh-CN
