@@ -137,6 +137,7 @@ params:
             darkTheme: dark
             reactionsEnabled: 1
             emitMetadata: 0
+            data-lang: zh-CN
 
         gitalk:
             owner:
