@@ -130,8 +130,8 @@ params:
         giscus:
             repo: YuXiaoyuYo/yuxiaoyuyo.github.io
             repoID: R_kgDOMoWkrw
-            category: Announcements
-            categoryID: DIC_kwDOMoWkr84Ch_1s
+            category: Comments
+            categoryID: DIC_kwDOMoWkr84Ci0Ip
             mapping: og:title
             lightTheme: light
             darkTheme: dark
