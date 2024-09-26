@@ -133,7 +133,7 @@ params:
             category: Comments
             categoryID: DIC_kwDOMoWkr84Ci0Ip
             mapping: og:title
-            lightTheme: light
+            lightTheme: noborder_light
             darkTheme: noborder_gray
             reactionsEnabled: 1
             emitMetadata: 0
