@@ -46,5 +46,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           CNAME: yu.nm.cn
-          user_name: "Github-Actions[🤖]"
-          user_email: "YuXiaoyuyo@users.noreply.github.com"
