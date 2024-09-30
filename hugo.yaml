@@ -195,7 +195,7 @@ params:
 ### See https://stack.jimmycai.com/config/menu
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 frontmatter:
-  lastmod: ["lastmod", ":git", "date", "publishDate"]
+  lastmod: [":git", lastmod]
 
 menu:
     main: []
