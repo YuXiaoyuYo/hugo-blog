@@ -43,6 +43,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.ACTION_TOKEN }}
           publish_dir: ./public
           CNAME: yu.nm.cn
+          EXTERNAL_REPOSITORY: ratmomo/ratmomo.github.io
