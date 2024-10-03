@@ -116,7 +116,7 @@ params:
                 placeholder:
 
         twikoo:
-            envId: https://twikoo-cloudflare.yuxiaoyuyo.workers.dev
+            envId: https://twikoo-cloudflare.yuxiaoyuyo.workers.dev/twikoo
             region:
             path:
             lang: zh-CN
