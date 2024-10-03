@@ -66,7 +66,7 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
+        enabled: true
         provider: twikoo
 
         disqusjs:
@@ -116,10 +116,10 @@ params:
                 placeholder:
 
         twikoo:
-            envId:
+            envId: https://twikoo-cloudflare.yuxiaoyuyo.workers.dev
             region:
             path:
-            lang:
+            lang: zh-CN
 
         # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
         cactus:
