@@ -116,7 +116,7 @@ params:
                 placeholder:
 
         twikoo:
-            envId: https://yuxiaoyuyo-twikoo.hf.space
+            envId: https://twikoo.yu.nm.cn
             region:
             path:
             lang: zh-CN
