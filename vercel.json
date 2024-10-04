@@ -1,5 +1,9 @@
 {
-  "rewrites": [
-    { "source": "/twikoo/(.*)", "destination": "twikoo/api/index" }
+  "version": 2,
+  "routes": [
+    {
+      "src": "/twikoo/(.*)",
+      "dest": "/twikoo/index.js"
+    }
   ]
 }
