@@ -1,11 +1,1 @@
-{
-    "name": "twikoo",
-    "version": "1.0.0",
-    "dependencies": {
-        "twikoo-vercel": "latest"
-    },
-    "main": "twikoo/index.js",
-    "scripts": {
-        "start": "node twikoo/index.js"
-    }
-}
+{ "dependencies": { "twikoo-vercel": "latest" } }
