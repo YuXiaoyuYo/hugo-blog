@@ -1,5 +1,14 @@
 {
   "rewrites": [
-    { "source": "/twikoo(.*)", "destination": "api/index" }
+    {
+      "source": "/twikoo(.*)",
+      "destination": "api/index"
+    }
+  ],
+  "header": [
+    {
+      "key": "Cache-Control",
+      "value": "max-age=600 s-maxage=86400"
+    }
   ]
 }
