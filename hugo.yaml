@@ -5,7 +5,6 @@ paginate: 3
 title: 于晓鱼的Blog
 copyright: YuXiaoyu
 enableGitInfo: true
-timeZone: Asia/Shanghai
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -48,7 +47,7 @@ params:
 
     dateFormat:
         published: 2006/1/02
-        lastUpdated: 2006/8/02 Mon PM 3:04 MST
+        lastUpdated: 2006/8/02 Mon PM 3:04
 
     sidebar:
         emoji: 🐟
