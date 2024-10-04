@@ -5,7 +5,7 @@
       "destination": "api/index"
     }
   ],
-  "header": [
+  "headers": [
     {
       "key": "Cache-Control",
       "value": "max-age=600 s-maxage=86400"
