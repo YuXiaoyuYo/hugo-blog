@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/twikoo/(.*)", "destination": "api/index" }
+    { "source": "/twikoo(.*)", "destination": "api/index" }
   ]
 }
