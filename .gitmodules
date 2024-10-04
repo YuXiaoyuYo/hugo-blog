@@ -1,3 +1,6 @@
 [submodule "themes/hugo-theme-stack"]
 	path = themes/hugo-theme-stack
 	url = https://github.com/CaiJimmy/hugo-theme-stack/
+[submodule "static/twikoo"]
+	path = static/twikoo
+	url = https://github.com/YuXiaoyuYo/twikoo.git
