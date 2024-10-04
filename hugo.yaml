@@ -39,7 +39,7 @@ params:
         - article
     featuredImageField: image
     rssFullContent: true
-    favicon: https://070715.xyz/images/favicon.webp # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: /favicon.ico # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
         since: 2024
@@ -54,8 +54,8 @@ params:
         subtitle: Bonjour!
         avatar:
             enabled: true
-            local: false
-            src: https://070715.xyz/images/avatar.webp
+            local: true
+            src: img/avatar.webp
 
     article:
         math: false
