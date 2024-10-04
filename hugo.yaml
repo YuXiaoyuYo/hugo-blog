@@ -47,7 +47,7 @@ params:
 
     dateFormat:
         published: 2006/1/02
-        lastUpdated: 2006/8/02 Mon PM 3:04
+        lastUpdated: 2006/8/02 Mon PM 3:04 MST
 
     sidebar:
         emoji: 🐟
@@ -195,7 +195,7 @@ params:
 ### See https://stack.jimmycai.com/config/menu
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 frontmatter:
-  lastmod: [":git", "lastmod"]
+  lastmod: ["lastmod", ":git", "date", "publishDate"]
 
 menu:
     main: []
