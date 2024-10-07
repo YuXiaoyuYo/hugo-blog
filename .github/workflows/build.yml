@@ -45,6 +45,6 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           PERSONAL_TOKEN: ${{ secrets.ACTION_TOKEN }}
-          destination_dir: public
           publish_dir: ./public
           EXTERNAL_REPOSITORY: YuXiaoyuYo/yuxiaoyuyo.github.io
+          CNAME: yu.nm.cn
