@@ -40,7 +40,7 @@ jobs:
           git_user_signingkey: true
           git_commit_gpgsign: true
 
-      - name: Deploy
+      - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
@@ -48,3 +48,12 @@ jobs:
           publish_dir: ./public
           EXTERNAL_REPOSITORY: YuXiaoyuYo/yuxiaoyuyo.github.io
           CNAME: yu.nm.cn
+
+      - name: Deploy to Vercel
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          PERSONAL_TOKEN: ${{ secrets.ACTION_TOKEN }}
+          destination_dir: public
+          publish_dir: ./public
+          EXTERNAL_REPOSITORY: YuXiaoyuYo/yuxiaoyu-blog-vercel
