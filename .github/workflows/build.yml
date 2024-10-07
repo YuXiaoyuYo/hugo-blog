@@ -51,6 +51,4 @@ jobs:
       - name: Trigger Vercel Workflows
         env:
           GH_TOKEN: ${{ secrets.ACTION_TOKEN }}
-          OWNER: yuxiaoyuyo
-          REPO: yuxiaoyu-blog-vercel
-        run: gh workflow run subupdate.yml
+        run: gh workflow run subupdate.yml --repo YuXiaoyuYo/yuxiaoyu-blog-vercel
