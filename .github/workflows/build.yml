@@ -49,8 +49,8 @@ jobs:
           CNAME: yu.nm.cn
       
       - name: Trigger Vercel Workflows
+        runs: gh workflow run subupdate.yml
         env:
           GH_TOKEN: ${{ secrets.ACTION_TOKEN }}
           OWNER: yuxiaoyuyo
           REPO: yuxiaoyu-blog-vercel
-        runs: gh workflow run subupdate.yml
