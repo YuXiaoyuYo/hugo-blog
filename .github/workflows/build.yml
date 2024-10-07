@@ -30,8 +30,7 @@ jobs:
       - name: Build
         run: hugo --minify --cleanDestinationDir --gc
 
-      -
-        name: Import GPG key
+      - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v6
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
@@ -48,12 +47,10 @@ jobs:
           publish_dir: ./public
           EXTERNAL_REPOSITORY: YuXiaoyuYo/yuxiaoyuyo.github.io
           CNAME: yu.nm.cn
-
-      - name: Deploy to Vercel
-        uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
-        with:
-          PERSONAL_TOKEN: ${{ secrets.ACTION_TOKEN }}
-          destination_dir: public
-          publish_dir: ./public
-          EXTERNAL_REPOSITORY: YuXiaoyuYo/yuxiaoyu-blog-vercel
+      
+      - name: Trigger Vercel Workflows
+        env:
+          GH_TOKEN: ${{ secrets.ACTION_TOKEN }}
+          OWNER: yuxiaoyuyo
+          REPO: yuxiaoyu-blog-vercel
+        runs: gh workflow run subupdate.yml
