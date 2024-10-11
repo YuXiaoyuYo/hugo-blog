@@ -43,7 +43,7 @@ params:
 
     footer:
         since: 2024
-        customText: 
+        customText: 本页共有 <b><span id="page_uv">0</span></b> 人访问
 
     dateFormat:
         published: 2006/1/02
