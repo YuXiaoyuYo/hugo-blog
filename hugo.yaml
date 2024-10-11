@@ -43,7 +43,7 @@ params:
 
     footer:
         since: 2024
-        customText: <span>本页面有 <span id="twikoo_visitors">0</span> 次访问</span>
+        customText: 
 
     dateFormat:
         published: 2006/1/02
