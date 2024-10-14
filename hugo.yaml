@@ -43,7 +43,7 @@ params:
 
     footer:
         since: 2024
-        customText: 本页共有 <b><span id="view-count">-</span></b> 人访问
+        customText: 本页共有 <b><span id="view-count">-</span></b> 次访问
 
     dateFormat:
         published: 2006/1/02
