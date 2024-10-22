@@ -45,8 +45,6 @@ jobs:
         with:
           PERSONAL_TOKEN: ${{ secrets.ACTION_TOKEN }}
           publish_dir: ./public
-          EXTERNAL_REPOSITORY: YuXiaoyuYo/yuxiaoyuyo.github.io
-          CNAME: yu.nm.cn
       
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v4
@@ -56,4 +54,4 @@ jobs:
           publish_dir: ./public
           publish_branch: main
           EXTERNAL_REPOSITORY: YuXiaoyuYo/yuxiaoyu-blog-vercel
-          destination_dir: public
+          destination_dir: public/legacy-hugo-blog
